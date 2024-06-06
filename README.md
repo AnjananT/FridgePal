@@ -5,11 +5,11 @@
 ![image](https://github.com/AnjananT/FridgePal/assets/144964837/69ea3771-0d52-4911-8425-a749d4272144)
 
 
-##Overview##
+# Overview #
 FridgePal is a project designed to simplify and enhance the cooking experience using artificial intelligence. By leveraging technologies such as computer vision and convolutional neural networks, FridgePal identifies items in a user's fridge and generates custom recipes based on their preferences, dietary restrictions, and nutritional needs.
 
-##Technologies Used##
-**AI**  
+# Technologies Used #
+**AI**    
 _**TensorFlow:**_ Framework used for building and training the neural network. 
 **OpenCV:** Library used for capturing and processing images from a camera, which are then fed into the TensorFlow model.  
 **OpenAI API:** Used to generate custom recipes using data from AI model. 
