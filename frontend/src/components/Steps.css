@@ -1,0 +1,18 @@
+.steps-container {
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.step-number {
+    min-width: 40px; /* Adjust the width and height as needed */
+    height: 40px;
+    background-color: #7BA4D3; /* Change the background color to your preference */
+    color: #fff; /* Text color */
+    border-radius: 50%; /* Makes the element circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

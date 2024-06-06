@@ -1,0 +1,41 @@
+body{
+  background: rgb(160,135,175);
+  background: radial-gradient(circle, rgba(160,135,175,1) 37%, rgba(138,93,164,1) 100%);
+  background-color: white;
+}
+.recipe-button{
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.home-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+.landing-text{
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.middle-row{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+svg{
+  scale: 500%;
+  margin-bottom: 45px;
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.3))
+}

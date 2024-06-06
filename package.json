@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@syncfusion/ej2-react-dropdowns": "^25.2.7",
+    "axios": "^1.7.2"
+  }
+}

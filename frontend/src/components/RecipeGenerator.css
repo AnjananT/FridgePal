@@ -1,0 +1,50 @@
+.recipeGenerator{
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  width:524px;
+  height: 60px;
+  margin-right:20px;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(136,136,136,0.6811245616410626) 100%);
+  background-size: 150% auto;
+}
+.recipeGenerator:hover{
+  transition: 0.2s;
+  background-position: right center;
+}
+
+.comments-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.comments-input {
+  width: 60%;
+  margin-right: 8px;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  background-color: #FCFDE7;
+  color: black;
+  padding: 10px;
+}
+
+.comments-submit {
+  border-radius: 5px;
+  border: none;
+  height: 51px;
+  width: 34%;
+  background-color: #1a1a1a;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: inherit;
+}
